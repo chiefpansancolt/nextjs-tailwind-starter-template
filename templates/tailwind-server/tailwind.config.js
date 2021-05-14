@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors');
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.js', './components/**/*.js', './data/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     colors: {
       transparent: 'transparent',
@@ -12,15 +12,24 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      amber: colors.amber,
+      blue: colors.blue,
+      cyan: colors.cyan,
+      emerald: colors.emerald,
+      fuchsia: colors.fuchsia,
       gray: colors.coolGray,
-      purple: colors.purple,
       green: colors.green,
       indigo: colors.indigo,
-      orange: colors.orange,
-      red: colors.red,
-      blue: colors.blue,
-      rose: colors.rose,
       'light-blue': colors.lightBlue,
+      lime: colors.lime,
+      orange: colors.orange,
+      pink: colors.pink,
+      purple: colors.purple,
+      red: colors.red,
+      rose: colors.rose,
+      teal: colors.teal,
+      violet: colors.violet,
+      yellow: colors.yellow,
     },
   },
   variants: {
